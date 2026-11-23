@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #10101B;
+    color: #F2E8FA;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.pagina-inicial {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.lua {
+    color: #D8B9EF;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #C6A7D9;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h1 {
+    color: #F2E8FA;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.descricao {
+    color: #BDB0CA;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #E9D5FF;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu button {
+    width: 100%;
+    min-height: 65px;
+    background: #39294F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.menu button:active {
+    background: #58406F;
+}
+
+footer {
+    color: #93849F;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.oculto {
+    display: none;
+}
+
+#conteudo {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+#botao-voltar {
+    background: #39294F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.grade-cartas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.carta {
+    background: #211D30;
+    border: 1px solid #443657;
+    border-radius: 12px;
+    padding: 18px 8px;
+    color: #F2E8FA;
+    text-align: center;
+}
+
+.secao-significado {
+    background: #211D30;
+    border: 1px solid #443657;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 14px 0;
+}
+
+.secao-significado h3 {
+    color: #D9BDF2;
+    margin-bottom: 8px;
+}
+
+.secao-significado p {
+    color: #E4DCEB;
+    line-height: 1.6;
+}
+

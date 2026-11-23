@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#10101B">
+    <title>Guia do Baralho Cigano</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="pagina-inicial" id="inicio">
+
+        <div class="lua">☾</div>
+
+        <p class="subtitulo">GUIA ESPIRITUAL</p>
+
+        <h1>Guia do Baralho Cigano</h1>
+
+        <p class="descricao">
+            Seu espaço de estudos e conhecimentos
+        </p>
+
+        <h2>Biblioteca de estudos</h2>
+
+        <div class="menu">
+
+            <button onclick="abrirSecao('cartas')">
+                🃏 Baralho Cigano
+            </button>
+
+            <button onclick="abrirSecao('velas')">
+                🕯️ Significados das velas
+            </button>
+
+            <button onclick="abrirSecao('tiragens')">
+                📖 Métodos de tiragem
+            </button>
+
+            <button onclick="abrirSecao('anotacoes')">
+                ✍️ Minhas anotações
+            </button>
+
+            <button onclick="abrirSecao('umbanda')">
+                🌿 Umbanda
+            </button>
+
+            <button onclick="abrirSecao('candomble')">
+                🌙 Candomblé
+            </button>
+
+        </div>
+
+        <footer>
+            GUIA DO BARALHO CIGANO • VERSÃO 1.0
+        </footer>
+
+    </main>
+
+    <section id="conteudo" class="oculto">
+        <button id="botao-voltar" onclick="voltarInicio()">
+            ← Voltar ao início
+        </button>
+        <div id="conteudo-secao"></div>
+    </section>
+
+    <script src="js/cartas.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
+
